@@ -1,0 +1,27 @@
+//synchronus/async
+
+console.log("karan"); //1
+
+setTimeout(()=>{
+    console.log("kishorekumar")// 3
+},1000)
+
+console.log("Kushagra") //2
+/*
+Store
+Reducer
+Action
+Dispatching Actions
+
+Store -> data -> multiple place in ur project
+
+// props drilling
+
+
+//Reducer
+
+
+state->data
+action -> changing or manipulationg or cruc
+
+*/

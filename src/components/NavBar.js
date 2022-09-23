@@ -4,7 +4,9 @@ import { useDispatch, useSelector } from 'react-redux';
 import { openCart } from '../state/actions';
 
 const NavBar = () => {
+  // reading
   const cart = useSelector((state) => state.cart);
+  //changing
   const dispatch = useDispatch();
 
   const sumQuantity = () => {
